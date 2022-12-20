@@ -21,14 +21,13 @@ DEV NOTES
 ---
 To Run on your local:
 1. Install Python
-2. Install Python Libraries: 
+2. Install additional Python Libraries: 
 pip install
 `flask`
 `flask-restful`
 `pandas`
-`json`
 
-3. Go to main.py and run on your local
+3. Go to `main.py` and run on your local
 4. Flask app will start adn it will give you an address that you can open in your browser
 
 Default Address: http://127.0.0.1:5000
