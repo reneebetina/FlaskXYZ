@@ -1,3 +1,5 @@
+Author @reneebetina
+
 To Run on your local:
 1. Install Python
 2. Install Python Libraries: pip install
@@ -27,3 +29,6 @@ Once user answers the test, the methods `suggest()` and `suggest_healthy()` will
 Output: 
 Output will be stored under /data/ouput as csv files
 output csv file will be transformed to a json and will be displayed in frontend
+
+Sample Run: 
+![sample_app_run](https://user-images.githubusercontent.com/24974238/208610255-34210768-495b-4a4a-b363-69b454cc4386.png)
