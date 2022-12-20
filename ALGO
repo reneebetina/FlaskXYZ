@@ -1,0 +1,21 @@
+
+A   0 - Zero to Minimal Alcohol Consumption
+B   1 per day  - Moderate Alcohol Consumption
+C   3 per day ; less than 7 per week : Low-Risk Drinking and Alcohol Use Disorder (AUD)
+D   5 per day ; Binge Drinking
+E   8 to 10 per day;  Extreme Binge Drinking
+F   binge on 5-7 days within a month; Heavy Drinking
+
+type_of_drinker = {
+"A":'Zero to Minimal Alcohol Consumption',
+"B":'Moderate Alcohol Consumption',
+"C":'Low-Risk Drinking and Alcohol Use Disorder',
+"D":'Binge Drinking',
+"E":'Extreme Binge Drinking',
+"F":'Heavy Drinking'
+}
+
+# lower limits
+perDay = {"A":0,"B":1-2,"C":3-4,"D":5-7,"E":8-more}
+perWeek = {"A":0,"B":1, C:, "D":7}
+optional_biological_info = {"Male","Female",""}

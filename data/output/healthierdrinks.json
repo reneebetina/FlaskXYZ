@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Heineken Light",
+        "abv": "3.3"
+    },
+    {
+        "name": "Novellino Sangria",
+        "abv": "4.5"
+    },
+    {
+        "name": "San Mig Light",
+        "abv": "5"
+    },
+    {
+        "name": "Tanduay Ice",
+        "abv": "6"
+    },
+    {
+        "name": "Red Horse",
+        "abv": "6.9"
+    },
+    {
+        "name": "Red Wine",
+        "abv": "12"
+    }
+]

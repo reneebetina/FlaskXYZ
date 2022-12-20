@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Take Test{% endblock %}
+
+{% block content %}
+<form action="/getmyresults" method="post">
+    <br>
+    <h5>Questions:</h5>
+    <br>
+    <h6>How many bottles of alcoholic drink can you take in 1 day?</h6>
+    <input type="radio" name="q1" value="A" required> <!--q1 is parameter name; A is value passed to URL-->
+    <label for="A">0</label><br>
+    <input type="radio" name="q1" value="B">
+    <label for="B">1-2</label><br>
+    <input type="radio" name="q1" value="C">
+    <label for="C">3-4</label><br>
+    <input type="radio" name="q1" value="D">
+    <label for="D">5-7</label><br>
+    <input type="radio" name="q1" value="E">
+    <label for="E">8 or more</label><br>
+
+    <br>
+    <h6>How often do you drink in 1 week?</h6>
+    <input type="radio" name="q2" value="A" required>
+    <label for="A">Rarely or on special occassions only (0-1 time) </label><br>
+    <input type="radio" name="q2" value="B">
+    <label for="B">Sometimes (1-6 days)</label><br>
+    <input type="radio" name="q2" value="C">
+    <label for="C">I drink every day (7 days) </label><br>
+
+    <br>
+    <input class="btn btn-primary" type="submit" value="Check My Results"></input>
+
+</script>
+</form>
+
+{% endblock %}

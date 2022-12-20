@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}ALL DRINKS{% endblock %}
+{% block content %}
+<h4>LIST OF ALL DRINKS</h4>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">ABV</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for drink in allDrinks %}
+    <tr>
+        <td>{{drink['name']}}</td>
+        <td>{{drink['abv']}} %</td>
+    </tr>
+  {% endfor%}
+  </tbody>
+</table>
+{% endblock %}

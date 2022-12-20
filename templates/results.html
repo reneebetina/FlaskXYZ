@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Results{% endblock %}
+{% block content %}
+
+<div class="mx-auto" style="width: 80%;">
+  <br>
+  <h7> Type of Drinker: </h7>
+  <div class="badge bg-primary text-wrap" style="width: 30% height: 30%;">{{drinkerType}}</div>
+  <h1 class="display-6"> {{drinkerDescription}}</h1>
+
+  <br>
+
+  <div class="row justify-content-center">
+    <div class="col-4">
+          <h4 class="text-info"> Tolerable Options </h4>
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">ABV</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for drink in suggestedDrinks %}
+    <tr>
+        <td>{{drink['name']}}</td>
+        <td>{{drink['abv']}} %</td>
+    </tr>
+  {% endfor%}
+  </tbody>
+  </table>
+    </div>
+    <div class="col-4">
+      <h4 class="text-success"> Healthier Options </h4>
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">ABV</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for drink in healthierDrinks %}
+    <tr>
+        <td>{{drink['name']}}</td>
+        <td>{{drink['abv']}} %</td>
+    </tr>
+  {% endfor%}
+  </tbody>
+  </table>
+    </div>
+  </div>
+
+
+
+</div>
+{% endblock %}

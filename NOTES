@@ -1,0 +1,44 @@
+
+EXISTING TESTS:
+https://count14.scot/#unit-generator -- gives standard of 14 units in a week (max 2units x 7 days) 100ml of 20% ABV in a week
+https://auditscreen.org/check-your-drinking
+
+drunkcalc.com
+
+*****
+Drink Strength:
+Light 2.7%
+Mid 3.5%
+Full 4.8%
+
+*****
+Hunger Level:
+Very Hungry
+Hungry
+Not Hungry
+Full
+
+Algorithm:
+Basic Recommendation
+
+
+
+RESOURCE STUDIES:
+(NIAAA) National Institute on Alcohol Abuse and Alcoholism
+Drinking Patterns and Their Definitions - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6104961/
+1 per day  - Moderate Alcohol Consumption
+3 per day ; less than 7 per week : Low-Risk Drinking and Alcohol Use Disorder (AUD)
+5 per day ; Binge Drinking
+8 to 10 per day;  Extreme Binge Drinking
+binge on 5-7 days within a month; Heavy Drinking
+
+
+https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/moderate-binge-drinking
+
+2 questions:
+How much can you drink in a day?
+How often can you drink in a month?
+
+
+
+https://www.lawtonduiclasses.com/alcohol-tolerance/

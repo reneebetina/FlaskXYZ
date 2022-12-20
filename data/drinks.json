@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Heineken Light",
+        "abv": "3.3"
+    },
+    {
+        "name": "Novellino Sangria",
+        "abv": "4.5"
+    },
+    {
+        "name": "San Mig Light",
+        "abv": "5"
+    },
+    {
+        "name": "Tanduay Ice",
+        "abv": "6"
+    },
+    {
+        "name": "Red Horse",
+        "abv": "6.9"
+    },
+    {
+        "name": "Red Wine",
+        "abv": "12"
+    },
+    {
+        "name": "Soju",
+        "abv": "15"
+    },
+    {
+        "name": "Emperador Light",
+        "abv": "27.5"
+    },
+    {
+        "name": "Bacardi",
+        "abv": "40"
+    },
+    {
+        "name": "Gin",
+        "abv": "40"
+    },
+    {
+        "name": "Jack Daniels",
+        "abv": "40"
+    },
+    {
+        "name": "The Bar",
+        "abv": " 70"
+    },
+    {
+        "name": "Patron Tequila",
+        "abv": "40"
+    },
+    {
+        "name": "Everclear",
+        "abv": "95"
+    },
+    {
+        "name": "Xyzo",
+        "abv": "99"
+    }
+]
