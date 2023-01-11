@@ -7,6 +7,8 @@ Author: [@reneebetina](https://github.com/reneebetina)
  - THIS APP IS FOR DEMO ONLY.
  
  - This is a sample Flask App and it determine your alcohol behavior type
+ 
+ - Logic to determine drinker type and suggested drinks are explained in the table at the end of this document
 
 
 What is this project for?
@@ -46,6 +48,8 @@ INPUT: list of drinks are stored under /data/drinks.csv
 PROCESS: 
 /data/drinks.csv is transformed to a json so that it will be displayed in frontend
 Once user answers the test, the methods `suggest()` and `suggest_healthy()` will run
+
+![image](https://user-images.githubusercontent.com/24974238/211728144-aaf64ba1-ec4d-4e88-a69f-74232c2d032b.png)
 
 
 OUTPUT: 
